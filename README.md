@@ -11,12 +11,12 @@ API used:
     Each Item: https://hacker-news.firebaseio.com/v0/item/id.json
 
 Files:
-    services:
-        StoryService: Centralized Backend Service that use axios to make http requests. This class is only used in Data service
-        StoryData: Centralized Data Service, the place where backend service is accessed
-    Components:
-        Card: Component to load each story
-        Comments: Component to load comments for each story
+    -services:
+        -StoryService: Centralized Backend Service that use axios to make http requests. This class is only used in Data service
+        -StoryData: Centralized Data Service, the place where backend service is accessed
+    -Components:
+        -Card: Component to load each story
+        -Comments: Component to load comments for each story
 
 
 
