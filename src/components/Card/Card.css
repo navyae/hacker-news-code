@@ -1,0 +1,146 @@
+.card{
+    width: 80%;
+    max-width: 900px;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.card-title{
+    width: 100%;
+    height: 40%;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(69,127,202, 0.8) ;
+    line-height: 1.5em;
+    text-decoration: none;
+    pointer-events: all;
+}
+
+.card-postedby{
+    width: 100%;
+    height: 20%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8e8e8e ;
+    line-height: 1.5em;
+
+}
+.card-details{
+    width: 100%;
+    height: 40%;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card-details-each{
+    margin-right: 20px;
+    color: #bcbcbc;
+}
+
+.card-rank{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgba(69,127,202, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    pointer-events: none;
+}
+.card-content{
+    width: calc(100% - 75px);
+    height: 100%;
+    margin-left: 15px;
+    pointer-events: none;
+}
+.post-wrap{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+.comment-wrap{
+    width: 100%;
+    height: auto;
+    display: none;
+    flex-direction: column;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card-title{
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+    .card-rank{
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+    .card-details{
+        font-size: 12px;
+    }
+    .card-postedby{
+        font-size: 12px;
+    }
+    .post-wrap{
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card-title{
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+    .card-rank{
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .card-details{
+        font-size: 14px;
+    }
+    .card-postedby{
+        font-size: 14px;
+    }
+    .post-wrap{
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .card-title{
+        font-size: 22px;
+        line-height: 1.2em;
+    }
+    .card-rank{
+        width: 60px;
+        height: 60px;
+        font-size: 40px;
+    }
+    .card-details{
+        font-size: 14px;
+    }
+    .card-postedby{
+        font-size: 14px;
+    }
+    .post-wrap{
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
