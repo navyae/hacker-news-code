@@ -18,6 +18,10 @@
     pointer-events: all;
 }
 
+.card-wrap{
+    width: 95%;
+    word-break: break-word;
+}
 .card-postedby{
     width: 100%;
     height: 20%;

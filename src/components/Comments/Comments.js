@@ -42,7 +42,7 @@ class Comments extends Component {
 
     render() {
         return (
-            <div>
+            <div className='card-wrap'>
                 {
                     this.comments && !this.comments.deleted ?
                         <div className='comments'>
