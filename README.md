@@ -20,11 +20,11 @@ Files:
 
 
 
-=> Implemented an observable data service to provide data to multiple parts of the application using rxjs BehaviorSubject
-=> Clicking on each story will expand the container to display comments
-=> I have used fontawesome CDN for icons
-=> Because the comments are already in ranking order, I pulled the first 20 Comments and their replies
-=> Responsive design
+  - Implemented an observable data service to provide data to multiple parts of the application using rxjs BehaviorSubject
+  - Clicking on each story will expand the container to display comments
+  - I have used fontawesome CDN for icons
+  - Because the comments are already in ranking order, I pulled the first 20 Comments and their replies
+  - Responsive design
 
 
 
