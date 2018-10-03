@@ -13,7 +13,7 @@ API used:
 Files:
   - services:
     - StoryService: Centralized Backend Service that use axios to make http requests. This class is only used in Dataservice
-    - StoryData: Centralized Data Service, the place where backend service is accessed
+    - StoryData: Centralized Data Service, the only place where backend service is accessed
   - components:
     - Card: Component to load each story
     - Comments: Component to load comments for each story
